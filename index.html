@@ -5,16 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Tribute Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
   <main id="main">
-    <div id="title"><h1>Dr. Norman Borlaug</h1></div>
-    <p>The man who saved a billion lives</p>
+    <header id="title"><h1>Dr. Norman Borlaug</h1></header>
+    <p class="small-dis">The man who saved a billion lives</p>
     <figure id="img-div">
-    <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug" >
-    <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption>
+      <img id="image" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg" alt="Dr. Norman Borlaug">
+      <figcaption id="img-caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</figcaption>
     </figure>
-    <div id="tribute-info">
+    <section id="tribute-info">
       <h2>Here's a time line of Dr. Borlaug's life:</h2>
       <ul>
         <li><strong>1914</strong> - Born in Cresco, Iowa</li>
@@ -34,12 +37,13 @@
         <li><strong>2005</strong> - states "we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds."</li>
         <li><strong>2009</strong> - dies at the age of 95.</li>
       </ul>
-      <p>
+      <p class="short-finish">
         "Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress."
+        <br>
+        <cite>-- Indian Prime Minister Manmohan Singh</cite>
       </p>
-      <cite>-- Indian Prime Minister Manmohan Singh</cite>
       <h3>If you have time, you should read more about this incredible human being on his <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia entry</a>.</h3>
-    </div>
+    </section>
   </main>
 </body>
 </html>
